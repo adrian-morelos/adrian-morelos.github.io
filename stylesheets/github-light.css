@@ -217,3 +217,7 @@
     font-weight: 300;
     text-transform: uppercase;
 }
+
+.contact-info .contact-byline {
+    font-size: 16px;
+}
