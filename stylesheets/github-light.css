@@ -114,3 +114,64 @@
   color: #1d3e81;
 }
 
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+    margin-right: 3.8%;
+    float: left;
+    min-height: 1px;
+}
+
+.row .sixcol {
+    width: 48%;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.skill_box {
+    margin: 0 0 10px;
+    float: left;
+    width: 100%;
+}
+
+.skill_label {
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 0 0 5px;
+}
+
+.skill_level {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill_level, .soft_skill, a.project_link:hover, .services_box div, .post_hr, .post_hr_equal, .post_previous, .post_next, #wp-calendar tbody td, .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi span, #aws_pagination .page-numbers {
+    background: #EEE;
+}
+
+.skill_set {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+.skill_set, .soft_skill span, .submit_button, .main_nav li:hover a, .link-active, .current-menu-item a, .main_nav ul.sub-menu, .button, #submit, .wpcf7-submit, .post .date, .tags a, .entry-footer li a:hover, .post-content .wp-caption, .comment .comment-meta .comment-reply-link:hover, #searchsubmit {
+    background: #34799e;
+}
+
+.skill_name {
+    font-size: 14px;
+    float: right;
+}
+
+.main-title .subtitle, .skill_name, span.inline_title, .entry-header ul span, .category_list span, .post-content blockquote, .post-content blockquote p, .comment .comment_date, #wp-calendar tbody, .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi span, #aws_pagination .page-numbers {
+    color: #AAA;
+}
