@@ -121,6 +121,10 @@
     min-height: 1px;
 }
 
+.row .fourcol {
+    width: 30.75%;
+}
+
 .row .sixcol {
     width: 48%;
 }
