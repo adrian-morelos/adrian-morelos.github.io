@@ -662,7 +662,7 @@ footer {
 
 .resume_section-content .resume_section-content_item {
     clear: left;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     overflow: hidden;
     position: relative;
 }
@@ -679,11 +679,11 @@ footer {
 .resume_section-content .resume_section-content_item .resume_section-content_title {
     color: #3863a0;
     font-weight: 600;
-    padding-right: 130px;
+    font-size: 14px;
 }
 
 .resume_section-content .resume_section-content_item .muted {
-    font-size: .9em;
+    font-size: 1.1em;
     color: #8b8b8b;
 }
 
