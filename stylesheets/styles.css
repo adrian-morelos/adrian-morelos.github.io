@@ -251,6 +251,14 @@ footer {
     -o-transition: all 0.4s ease-out;
     -ms-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    margin: -125px 0 0 -125px;
+    border-radius: 125px;
+    border-radius: 50%;
+    -o-border-radius: 125px;
+    -webkit-border-radius: 125px;
 }
 
 .color_icons.profile_social_links a,
