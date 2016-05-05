@@ -680,10 +680,11 @@ footer {
     color: #3863a0;
     font-weight: 600;
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .resume_section-content .resume_section-content_item .muted {
-    font-size: 1.1em;
+    font-size: 1.0em;
     color: #8b8b8b;
 } 
 
