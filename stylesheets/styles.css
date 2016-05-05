@@ -223,6 +223,35 @@ footer {
   background-attachment:scroll; 
 }
 
+.profile-image-wrapper .portrate{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 35px auto;
+}
+
+.profile-image-wrapper .portrate .avatar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    -webkit-box-shadow: inset 0 0 0 4px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 0 4px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
 
 .color_icons.profile_social_links a,
 .color_icons.sidebar_profile_social_links li a,
