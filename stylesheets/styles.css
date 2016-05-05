@@ -647,6 +647,50 @@ footer {
 *  END Image Portrait 
 */
 
+
+/*
+*  BEGIN Resume Section Content
+*/
+.resume_section-content{
+
+}
+
+.resume_section-content ol, 
+.resume_section-content ul {
+    list-style: none;
+}
+
+.resume_section-content .resume_section-content_item {
+    clear: left;
+    margin: 0 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.resume_section-content ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    min-height: 0;
+    min-width: 0;
+}
+
+.resume_section-content .resume_section-content_item .resume_section-content_title {
+    color: #3863a0;
+    font-weight: 600;
+    padding-right: 130px;
+}
+
+.resume_section-content .resume_section-content_item .muted {
+    font-size: .9em;
+    color: #8b8b8b;
+}
+
+/*
+*  END Resume Section Content
+*/
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
