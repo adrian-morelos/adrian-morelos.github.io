@@ -190,6 +190,426 @@ footer {
   bottom:50px;
 }
 
+/* 
+*  BEGIN Image Portrait 
+*/
+.profile-image-wrapper{
+    border: 1px dashed #DDD;
+    position: relative;
+    height: 320px;
+    width: 320px;
+    margin: 50px auto 35px;
+    border-radius: 50%;
+}
+
+.profile-image-wrapper .profile_social_links a{
+  position: absolute; 
+}
+
+.profile-image-wrapper .profile_social_links a{
+  display: block;
+  height: 43px;
+  width: 43px;
+  border-radius: 100px;
+  border-radius: 50%;
+  z-index: 100;
+  /*You can make some css3 animations here*/
+  -webkit-transition: background 0.3s ease 0s;
+     -moz-transition: background 0.3s ease 0s;
+      -ms-transition: background 0.3s ease 0s;
+       -o-transition: background 0.3s ease 0s;
+          transition: background 0.3s ease 0s;
+  opacity:0;
+  background-attachment:scroll; 
+}
+
+
+.color_icons.profile_social_links a,
+.color_icons.sidebar_profile_social_links li a,
+.blank_icons.profile_social_links a:hover,
+.blank_icons.sidebar_profile_social_links li a:hover{
+  background-position: 0 -40px;
+}
+.color_icons.profile_social_links a:hover,
+.color_icons.sidebar_profile_social_links li a:hover,
+.blank_icons.profile_social_links a,
+.blank_icons.sidebar_profile_social_links li a{
+  background-position: 0 0;
+}
+.blank_icons.profile_social_links a,
+.blank_icons.sidebar_profile_social_links li a{
+  background-color: #FFF;
+}
+/*--------------------------------------------------
+          SOCIAL ICONS STYLES
+---------------------------------------------------*/
+.aim_ico{
+  background: url('../images/social_icons/aim_ico.png') no-repeat 0 0;
+}
+.apple_ico{
+  background: url('../images/social_icons/apple_ico.png') no-repeat 0 0;
+}
+.behance_ico{
+  background: url('../images/social_icons/behance_ico.png') no-repeat 0 0;
+}
+.blogger_ico{
+  background: url('../images/social_icons/blogger_ico.png') no-repeat 0 0;
+}
+.cargo_ico{
+  background: url('../images/social_icons/cargo_ico.png') no-repeat 0 0;
+}
+.envato_ico{
+  background: url('../images/social_icons/envato_ico.png') no-repeat 0 0;
+}
+.delicious_ico{
+  background: url('../images/social_icons/delicious_ico.png') no-repeat 0 0;
+}
+.deviantart_ico{
+  background: url('../images/social_icons/deviantart_ico.png') no-repeat 0 0;
+}
+.digg_ico{
+  background: url('../images/social_icons/digg_ico.png') no-repeat 0 0;
+}
+.dribbble_ico{
+  background: url('../images/social_icons/dribbble_ico.png') no-repeat 0 0;
+}
+.evernote_ico{
+  background: url('../images/social_icons/evernote_ico.png') no-repeat 0 0;
+}
+.facebook_ico{
+  background: url('../images/social_icons/facebook_ico.png') no-repeat 0 0;
+}
+.flickr_ico{
+  background: url('../images/social_icons/flickr_ico.png') no-repeat 0 0;
+}
+.forrst_ico{
+  background: url('../images/social_icons/forrst_ico.png') no-repeat 0 0;
+}
+.github_ico{
+  background: url('../images/social_icons/github_ico.png') no-repeat 0 0;
+}
+.google_ico{
+  background: url('../images/social_icons/google_ico.png') no-repeat 0 0;
+}
+.googleplus_ico{
+  background: url('../images/social_icons/googleplus_ico.png') no-repeat 0 0;
+}
+.grooveshark_ico{
+  background: url('../images/social_icons/grooveshark_ico.png') no-repeat 0 0;
+}
+.icloud_ico{
+  background: url('../images/social_icons/icloud_ico.png') no-repeat 0 0;
+}
+.lastfm_ico{
+  background: url('../images/social_icons/lastfm_ico.png') no-repeat 0 0;
+}
+.linkedin_ico{
+  background: url('../images/social_icons/linkedin_ico.png') no-repeat 0 0;
+}
+.myspace_ico{
+  background: url('../images/social_icons/myspace_ico.png') no-repeat 0 0;
+}
+.picasa_ico{
+  background: url('../images/social_icons/picasa_ico.png') no-repeat 0 0;
+}
+.pinterest_ico{
+  background: url('../images/social_icons/pinterest_ico.png') no-repeat 0 0;
+}
+.posterous_ico{
+  background: url('../images/social_icons/posterous_ico.png') no-repeat 0 0;
+}
+.reddit_ico{
+  background: url('../images/social_icons/reddit_ico.png') no-repeat 0 0;
+}
+.rss_ico{
+  background: url('../images/social_icons/rss_ico.png') no-repeat 0 0;
+}
+.skype_ico{
+  background: url('../images/social_icons/skype_ico.png') no-repeat 0 0;
+}
+.stumbleupon_ico{
+  background: url('../images/social_icons/stumbleupon_ico.png') no-repeat 0 0;
+}
+.soundcloud_ico{
+  background: url('../images/social_icons/soundcloud_ico.png') no-repeat 0 0;
+}
+.tumblr_ico{
+  background: url('../images/social_icons/tumblr_ico.png') no-repeat 0 0;
+}
+.twitter_ico{
+  background: url('../images/social_icons/twitter_ico.png') no-repeat 0 0;
+}
+.vimeo_ico{
+  background: url('../images/social_icons/vimeo_ico.png') no-repeat 0 0;
+}
+.wordpress_ico{
+  background: url('../images/social_icons/wordpress_ico.png') no-repeat 0 0;
+}
+.yahoo_ico{
+  background: url('../images/social_icons/yahoo_ico.png') no-repeat 0 0;
+}
+.youtube_ico{
+  background: url('../images/social_icons/youtube_ico.png') no-repeat 0 0;
+}
+.zerply_ico{
+  background: url('../images/social_icons/zerply_ico.png') no-repeat 0 0;
+}
+.instagram_ico{
+  background: url('../images/social_icons/instagram_ico.png') no-repeat 0 0;
+}
+.xing_ico{
+  background: url('../images/social_icons/xing_ico.png') no-repeat 0 0;
+}
+.fh_px_ico{
+  background: url('../images/social_icons/fh_px_ico.png') no-repeat 0 0;
+}
+.vine_ico{
+  background: url('../images/social_icons/vine_ico.png') no-repeat 0 0;
+}
+.spotify_ico{
+  background: url('../images/social_icons/spotify_ico.png') no-repeat 0 0;
+}
+.color_icons .aim_ico,
+.blank_icons .aim_ico:hover{
+  background-color: #e95a00;
+}
+.color_icons .apple_ico,
+.blank_icons .apple_ico:hover{
+  background-color: #606060;
+}
+.color_icons .behance_ico,
+.blank_icons .behance_ico:hover{
+  background-color: #18a3fe;
+}
+.color_icons .blogger_ico,
+.blank_icons .blogger_ico:hover{
+  background-color: #fb913f;
+}
+.color_icons .cargo_ico,
+.blank_icons .blogger_ico:hover{
+  background-color: #00c462;
+}
+.color_icons .envato_ico,
+.blank_icons .envato_ico:hover{
+  background-color: #a9cf58;
+}
+.color_icons .delicious_ico,
+.blank_icons .delicious_ico:hover{
+  background-color: #3274d1;
+}
+.color_icons .deviantart_ico,
+.blank_icons .deviantart_ico:hover{
+  background-color: #d0de21;
+}
+.color_icons .digg_ico,
+.blank_icons .digg_ico:hover{
+  background-color: #2882c6;
+}
+.color_icons .dribbble_ico,
+.blank_icons .dribbble_ico:hover{
+  background-color: #ef5b92;
+}
+.color_icons .evernote_ico,
+.blank_icons .evernote_ico:hover{
+  background-color: #77ba2f;
+}
+.color_icons .facebook_ico,
+.blank_icons .facebook_ico:hover{
+  background-color: #3b5998;
+}
+.color_icons .flickr_ico,
+.blank_icons .flickr_ico:hover{
+  background-color: #f1628b;
+}
+.color_icons .forrst_ico,
+.blank_icons .forrst_ico:hover{
+  background-color: #5b9a68;
+}
+.color_icons .github_ico,
+.blank_icons .github_ico:hover{
+  background-color: #7292a2; 
+}
+.color_icons .google_ico,
+.blank_icons .google_ico:hover{
+  background-color: #dd4b39; 
+}
+.color_icons .googleplus_ico,
+.blank_icons .googleplus_ico:hover{
+  background-color: #d94a39; 
+}
+.color_icons .grooveshark_ico,
+.blank_icons .grooveshark_ico:hover{
+  background-color: #f88e00; 
+}
+.color_icons .icloud_ico,
+.blank_icons .icloud_ico:hover{
+  background-color: #fb913f; 
+}
+.color_icons .lastfm_ico,
+.blank_icons .lastfm_ico:hover{
+  background-color: #d21309;
+}
+.color_icons .linkedin_ico,
+.blank_icons .linkedin_ico:hover{
+  background-color: #71b2d0; 
+}
+.color_icons .myspace,
+.blank_icons .myspace:hover{
+  background-color: #003398; 
+}
+.color_icons .picasa_ico,
+.blank_icons .picasa_ico:hover{
+  background-color: #444; 
+}
+.color_icons .pinterest_ico,
+.blank_icons .pinterest_ico:hover{
+  background-color: #cb2027; 
+}
+.color_icons .posterous_ico,
+.blank_icons .posterous_ico:hover{
+  background-color: #f9d560; 
+}
+.color_icons .reddit_ico,
+.blank_icons .reddit_ico:hover{
+  background-color: #bfd0e2;
+}
+.color_icons .rss_ico,
+.blank_icons .rss_ico:hover{
+  background-color: #fe9900; 
+}
+.color_icons .skype_ico,
+.blank_icons .skype_ico:hover{
+  background-color: #18b7f1; 
+}
+.color_icons .stumbleupon_ico,
+.blank_icons .stumbleupon_ico:hover{
+  background-color: #eb4924; 
+}
+.color_icons .soundcloud_ico,
+.blank_icons .soundcloud_ico:hover{
+  background-color: #f60000; 
+}
+.color_icons .tumblr_ico,
+.blank_icons .tumblr_ico:hover{
+  background-color: #3a5976; 
+}
+.color_icons .twitter_ico,
+.blank_icons .twitter_ico:hover{
+  background-color: #48c4d2; 
+}
+.color_icons .vimeo_ico,
+.blank_icons .vimeo_ico:hover{
+  background-color: #62a0ad; 
+}
+.color_icons .wordpress_ico,
+.blank_icons .wordpress_ico:hover{
+  background-color: #464646;
+}
+.color_icons .yahoo_ico,
+.blank_icons .yahoo_ico:hover{
+  background-color: #ab64bc; 
+}
+.color_icons .youtube_ico,
+.blank_icons .youtube_ico:hover{
+  background-color: #f45750; 
+}
+.color_icons .zerply_ico,
+.blank_icons .zerply_ico:hover{
+  background-color: #8db259; 
+}
+.color_icons .instagram_ico,
+.blank_icons .instagram_ico:hover{
+  background-color: #306088; 
+}
+.color_icons .xing_ico,
+.blank_icons .xing_ico:hover{
+  background-color: #126567; 
+}
+.color_icons .fh_px_ico,
+.blank_icons .fh_px_ico:hover{
+  background-color: #02adea; 
+}
+.color_icons .spotify_ico,
+.blank_icons .spotify_ico:hover{
+  background-color: #95ba1a; 
+}
+.color_icons .vine_ico,
+.blank_icons .vine_ico:hover{
+  background-color: #00bf8f; 
+}
+/*--------------------------------------------------
+          PROFILE ICONS POSSITIONS STYLES
+---------------------------------------------------*/
+.pos_1{
+  top: -22px;
+  left: 135px;
+}
+.pos_2{
+  top: 30px;
+  right: 20px;
+}
+.pos_3{
+  top: 140px;
+  right: -22px;
+}
+.pos_4{
+  top: 245px;
+  right: 20px;
+}
+.pos_5{
+  top: 295px;
+  left: 135px;
+}
+.pos_6{
+  top: 245px;
+  left: 20px;
+}
+.pos_7{
+  top: 140px;
+  left: -22px;
+}
+.pos_8{
+  top: 30px;
+  left: 20px;
+}
+
+
+.profile_social_links a span,
+.sidebar_profile_social_links li a span{
+  display: none;
+  top: 0;
+}
+.profile_social_links a:hover span,
+.sidebar_profile_social_links li a:hover span{
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.2em;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 100px;
+  margin-left: -50px;
+}
+.profile_social_links a span:after,
+.sidebar_profile_social_links li a span:after{
+  position: absolute;
+  display: block;
+  content: "";  
+  border-style: solid;
+  border-width: 8px;
+  height:0;
+  width:0;
+  bottom:-16px;
+  left:40px;
+}
+
+/* 
+*  END Image Portrait 
+*/
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
