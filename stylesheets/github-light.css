@@ -193,22 +193,23 @@
 }
 
 .light-fonts-pro {
-    color: #ffffff;
+    color: #000000;
+    font-weight: bold;
 }
 
 .contact-info {text-align: center;}
 
 .contact-info i {
-    color: #ffffff;
+    color: #3863a0;
     font-size: 40px;
     line-height: 100px;
     width: 100px;
     height: 100px;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(56, 99, 160, 0.5);
     border-radius: 100%;
     margin: auto;
     vertical-align: middle;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
