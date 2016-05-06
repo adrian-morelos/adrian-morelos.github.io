@@ -630,6 +630,7 @@ footer {
 .sidebar_profile_social_links li a span{
   display: none;
   top: 0;
+  color: #fff;
 }
 .profile_social_links a:hover span,
 .sidebar_profile_social_links li a:hover span{
