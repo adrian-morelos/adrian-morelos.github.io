@@ -8,10 +8,12 @@
 }
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+    padding: 0px;
+    font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+    position: relative;
+    display: block;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -227,10 +229,12 @@ footer {
 }
 
 .header-buttons {
-    text-align: right;
-    padding-top: 15px;
-    float: right;
-    clear: both;
+  text-align: right;
+  display: block;
+  margin-bottom: 40px;
+  clear: both;
+  position: relative;
+  width: 100%;
 }
 
 /* 
@@ -241,7 +245,7 @@ footer {
     position: relative;
     height: 320px;
     width: 320px;
-    margin: 0px auto 35px;
+    margin: 50px auto 35px;
     border-radius: 50%;
 }
 
