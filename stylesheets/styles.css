@@ -190,6 +190,49 @@ footer {
   bottom:50px;
 }
 
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn {
+    margin-right: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+}
+
+.btn-default {
+    background: #3b658a;
+    color: #fafafa;
+    border: #3b658a;
+}
+
+.header-buttons {
+    text-align: right;
+    padding-top: 15px;
+    float: right;
+    clear: both;
+}
+
 /* 
 *  BEGIN Image Portrait 
 */
