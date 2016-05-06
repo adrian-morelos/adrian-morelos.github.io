@@ -277,6 +277,21 @@ footer {
 .blank_icons.sidebar_profile_social_links li a{
   background-color: #FFF;
 }
+
+
+.profile-image-wrapper .profile_social_links a,
+.profile-image-wrapper .sidebar_profile_social_links a{
+  border: 1px solid #DDD;
+}
+.profile-image-wrapper .profile_social_links a:hover span,
+.profile-image-wrapper .sidebar_profile_social_links li a:hover span{
+  background: rgba(0, 0, 0, 0.8); 
+}
+.profile-image-wrapper .profile_social_links a span:after,
+.profile-image-wrapper .sidebar_profile_social_links li a span:after{
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
 /*--------------------------------------------------
           SOCIAL ICONS STYLES
 ---------------------------------------------------*/
